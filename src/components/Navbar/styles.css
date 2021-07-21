@@ -1,0 +1,12 @@
+.navbar-icon {
+  color: #61dafb;
+  margin-left: 1rem;
+}
+
+.navbar-outline, .navbar-outline:hover {
+  text-decoration: none !important;
+  color: inherit;
+  margin-left: 1rem;
+  color: white;
+}
+

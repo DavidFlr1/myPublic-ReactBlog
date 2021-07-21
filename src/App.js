@@ -1,15 +1,21 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Navbars } from './components/index'
-import {Button} from 'reactstrap'
+import { Navbars, Main } from './components/index'
 
 import './styles.css'
 
 const App = () => {
 
     return (
-        <div className="main-container">
-            <Navbars />
+        <div>
+            <Router>
+                <Navbars />
+                    <Switch>
+                        <Route exact path="/">
+                            <Main />
+                        </Route>
+                    </Switch>
+            </Router>
         </div>
     )
 }
