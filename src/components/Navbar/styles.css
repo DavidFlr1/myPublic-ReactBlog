@@ -8,5 +8,33 @@
   color: inherit;
   margin-left: 1rem;
   color: white;
+  margin-right: auto;
 }
 
+.navbar-nullButton {
+  border: 1px solid inherit;
+  border-radius: 5px;
+  padding: 2px 6px 2px 6px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.navbar-nullButton:hover {
+  color: gray;
+}
+
+.navbar-button {
+  width: 100px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 5px;
+  padding: 2px 6px 2px 6px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.navbar-button:hover {
+  background: gray;
+  color: white;
+
+}

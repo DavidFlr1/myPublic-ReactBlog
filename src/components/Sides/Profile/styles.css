@@ -1,0 +1,15 @@
+.sideProfile-img {
+  border-radius: 50% !important;
+}
+
+.sideProfile-group {
+  width: 140px;
+  padding: 4px 2px;
+  background: #212529 !important;
+  color: white !important;
+}
+
+.sideProfile-outline {
+  text-decoration: none !important;
+  color: inherit;
+}

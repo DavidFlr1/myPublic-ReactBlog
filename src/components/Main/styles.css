@@ -1,0 +1,12 @@
+.main-container {
+  display: flex;
+  padding: 20px;
+}
+
+.main-postContainer {
+  padding: 0 60px 0 60px;
+}
+
+.main-postLine {
+  margin-top: 1rem !important;
+}

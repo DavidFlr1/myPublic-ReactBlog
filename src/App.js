@@ -7,7 +7,7 @@ import './styles.css'
 const App = () => {
 
     return (
-        <div>
+        <div style={{background: '#2C2E31'}}>
             <Router>
                 <Navbars />
                     <Switch>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SideProfile = () => {
+const Post = () => {
   return (
     <div>
       
@@ -8,4 +8,5 @@ const SideProfile = () => {
   )
 }
 
-export default SideProfile
+export default Post
+

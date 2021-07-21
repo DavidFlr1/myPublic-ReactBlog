@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {Carousel } from 'react-bootstrap'
 
+import './styles.css'
 const Carousels = () => {
   const [index, setIndex] = useState(0);
 
@@ -9,22 +10,22 @@ const Carousels = () => {
   };
   return (
     <div>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item interval={2000}>
-          <img className="d-block w-100" src="https://random.imagecdn.app/2000/450" alt="First slide" />
+      <Carousel activeIndex={index} onSelect={handleSelect} className="carousel-size">
+        <Carousel.Item interval={3000}>
+          <img className="d-block w-100 " src="https://random.imagecdn.app/2000/450" alt="First slide" />
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={3000}>
           <img className="d-block w-100" src="https://random.imagecdn.app/1999/450" alt="Second slide" />
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={3000}>
           <img className="d-block w-100" src="https://random.imagecdn.app/1998/450" alt="Third slide" />
           <Carousel.Caption>
             <h3>Third slide label</h3>

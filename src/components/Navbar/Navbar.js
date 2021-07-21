@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import {Navbar, Nav, Container} from 'react-bootstrap'
+import {Navbar, Nav, Container, Button} from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faNewspaper, faIdCard, faUserCheck, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 
 import './styles.css'
@@ -19,10 +19,28 @@ const Navbars = () => {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto text-center" >
-        <Link to="/" className="navbar-outline" >
+        <Link to="/" className="navbar-outline navbar-nullButton" >
           <FontAwesomeIcon icon={faHome} /> HOME
         </Link>
+        <Link to="/" className="navbar-outline navbar-nullButton" >
+          <FontAwesomeIcon icon={faUser} /> PROFILE
+        </Link>
+        <Link to="/" className="navbar-outline navbar-nullButton" >
+          <FontAwesomeIcon variant="regular" icon={faNewspaper} /> NEWS
+        </Link>
+        <Link to="/" className="navbar-outline navbar-nullButton" >
+          <FontAwesomeIcon variant="regular" icon={faIdCard} /> CONTACT
+        </Link>
       </Nav>
+      <br/>
+      <Nav>
+        <Link to="/" className="navbar-outline navbar-nullButton" >
+          <FontAwesomeIcon icon={faUserCheck} /> SIGN IN
+        </Link>
+        <Link to="/" className="navbar-outline navbar-button" >
+          <FontAwesomeIcon icon={faUserPlus} /> LOG IN
+        </Link>
+    </Nav>
     </Navbar.Collapse>
   </Container>
 </Navbar>
