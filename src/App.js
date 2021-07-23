@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Navbars, Main } from './components/index'
+import { Navbars, Main, Profile } from './components/index'
 
 import './styles.css'
 
@@ -13,6 +13,9 @@ const App = () => {
                     <Switch>
                         <Route exact path="/">
                             <Main />
+                        </Route>
+                        <Route exact path="/Profile">
+                            <Profile />
                         </Route>
                     </Switch>
             </Router>

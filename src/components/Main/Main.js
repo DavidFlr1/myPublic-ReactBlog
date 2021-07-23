@@ -8,10 +8,11 @@ const Main = () => {
   return (
     <div>
       <Carousels/>
+      
       <div className="main-container">
         <SideAdd />
 
-        <Container>
+        <Container >
           <Row className="main-postContainer">
             <Col md="12">
               <Row>
@@ -29,6 +30,7 @@ const Main = () => {
 
         <SideProfile />
       </div>
+
       <Footer />
     </div>
   )

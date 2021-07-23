@@ -1,0 +1,15 @@
+.Posts-textMuted {
+  font-size: 12px;
+  color: gray;
+  line-height: 0px;
+}
+
+.Posts-outlined {
+  text-decoration: none;
+  color: rgb(168, 31, 31);
+}
+.Posts-outlined:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(145, 29, 29);
+}

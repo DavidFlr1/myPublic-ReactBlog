@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import {Navbar, Nav, Container, Button} from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faNewspaper, faIdCard, faUserCheck, faUserPlus } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faNewspaper, faIdCard, faUserCheck, faUserPlus, faInfo } from '@fortawesome/free-solid-svg-icons'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 
 import './styles.css'
@@ -22,7 +22,7 @@ const Navbars = () => {
         <Link to="/" className="navbar-outline navbar-nullButton" >
           <FontAwesomeIcon icon={faHome} /> HOME
         </Link>
-        <Link to="/" className="navbar-outline navbar-nullButton" >
+        <Link to="/Profile" className="navbar-outline navbar-nullButton" >
           <FontAwesomeIcon icon={faUser} /> PROFILE
         </Link>
         <Link to="/" className="navbar-outline navbar-nullButton" >
@@ -30,6 +30,9 @@ const Navbars = () => {
         </Link>
         <Link to="/" className="navbar-outline navbar-nullButton" >
           <FontAwesomeIcon variant="regular" icon={faIdCard} /> CONTACT
+        </Link>
+        <Link to="/" className="navbar-outline navbar-nullButton" >
+          <FontAwesomeIcon variant="regular" icon={faInfo} /> INFO
         </Link>
       </Nav>
       <br/>

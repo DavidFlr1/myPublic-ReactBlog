@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import {Container, Row, Col, Card, ButtonGroup, Dropdown, Button, Form } from 'react-bootstrap'
+import {Row, Col, Card, ButtonGroup, Button, Form } from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFont, faPaperclip, faMapMarkedAlt, faSmileWink } from '@fortawesome/free-solid-svg-icons'
+import { faFont, faPaperclip, faMapMarkedAlt, faSmileWink, faAlignJustify, faAlignLeft, faAlignRight, faBold, faItalic, faUnderline, faTint, faFill, faTextHeight } from '@fortawesome/free-solid-svg-icons'
 
 import './styles.css'
 const AddPost = () => {
@@ -22,6 +22,17 @@ const AddPost = () => {
             <Row>
               <Col md="10">
                 <Form.Control as="textarea" rows={6} placeholder="Don't be shay and say everything..." className="AddPost-controls"/>
+                <Col md={{span: 5, offset: 7}}>
+                  <Button variant="outline-secondary"><FontAwesomeIcon icon={faAlignLeft} /></Button> 
+                  <Button variant="outline-secondary"><FontAwesomeIcon icon={faAlignJustify} /></Button>
+                  <Button variant="outline-secondary"><FontAwesomeIcon icon={faAlignRight} /></Button>{' '}
+                  <Button variant="outline-secondary"><FontAwesomeIcon icon={faBold} /></Button>
+                  <Button variant="outline-secondary"><FontAwesomeIcon icon={faItalic} /></Button>
+                  <Button variant="outline-secondary"><FontAwesomeIcon icon={faUnderline} /></Button>{' '}
+                  <Button variant="outline-secondary"><FontAwesomeIcon icon={faTint} /></Button>
+                  <Button variant="outline-secondary"><FontAwesomeIcon icon={faFill} /></Button> {' '}
+                  <Button variant="outline-secondary"><FontAwesomeIcon icon={faTextHeight} /></Button>
+                </Col>
               </Col>
               <Col md="2">
                   <Card.Img src="https://random.imagecdn.app/200/200"/>

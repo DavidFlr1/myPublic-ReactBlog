@@ -1,0 +1,13 @@
+.Footer-references {
+  color: gray;
+}
+
+.Footer-outlined {
+  text-decoration: none;
+  color: gray;
+}
+
+.Footer-outlined:hover {
+  text-decoration: none;
+  color: lightgray;
+}

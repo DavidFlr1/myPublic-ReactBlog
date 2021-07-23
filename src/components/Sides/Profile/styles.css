@@ -1,3 +1,7 @@
+.SideProfile-Card {
+  width: 18rem;
+  padding: 4px;
+}
 .sideProfile-img {
   border-radius: 50% !important;
 }
@@ -7,9 +11,14 @@
   padding: 4px 2px;
   background: #212529 !important;
   color: white !important;
+  font-size: 13px;
 }
 
 .sideProfile-outline {
   text-decoration: none !important;
   color: inherit;
+}
+
+.sideProfile-about {
+  word-wrap: break-word !important;
 }

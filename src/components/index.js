@@ -13,4 +13,8 @@ export { default as Profile } from './Profile/Profile'
 
 export { default as Commits } from './Git/Commits'
 
+export { default as Contact } from './Miscellaneous/Contact'
+export { default as Info } from './Miscellaneous/Info'
+export { default as Alert } from './Miscellaneous/Alert/InfoAlert'
+
 export { default as Footer } from './Footer/Footer'
