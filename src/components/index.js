@@ -1,6 +1,9 @@
 export { default as Navbars } from './Navbar/Navbar'
 export { default as Main } from './Main/Main'
 
+export { default as SignIn } from './Sessions/Existent/SignIn'
+export { default as LogIn } from './Sessions/New/LogIn'
+
 export { default as Carousels } from './Carousel/Carousel'
 export { default as AddPosts } from './Blog/AddPost/AddPost'
 export { default as Posts } from './Blog/Posts/Posts'

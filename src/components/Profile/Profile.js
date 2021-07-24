@@ -7,7 +7,7 @@ import { faEnvelope, faMapMarkedAlt, faPhoneAlt, faBirthdayCake, faLink, faUser,
 
 import './styles.css'
 const Profile = () => {
-  const [randomUser, setRandomUser] = useState({name: {first: '', last: ''}})
+  const [randomUser, setRandomUser] = useState({name: {first: '', last: ''}, picture: {large: ''}})
   const [display, setDisplay] = useState({displayField: '', displayValue: ''})
 
   const getUser = async () => {
@@ -17,8 +17,6 @@ const Profile = () => {
   }
 
   const handleHover = (field, value) => {
-    console.log(field, value)
-    console.log(randomUser)
     setDisplay({displayField: field, displayValue: value})
   }
 
@@ -28,7 +26,7 @@ const Profile = () => {
   return (
     <div className="Profile-mainContainer">
       <Card bg="dark" text="light" className="text-center" style={{ width: '50rem', alignItems: 'center' }}>
-        <Card.Img variant="top" src="https://random.imagecdn.app/160/160" className="Profile-img" />
+        <Card.Img variant="top" src={randomUser.picture.large} className="Profile-img" />
         <Card.Body>
           <Card.Title>{randomUser.name.first} {randomUser.name.last}</Card.Title>
           <Card.Text>

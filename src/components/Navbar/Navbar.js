@@ -37,10 +37,10 @@ const Navbars = () => {
       </Nav>
       <br/>
       <Nav>
-        <Link to="/" className="navbar-outline navbar-nullButton" >
+        <Link to="/SignIn" className="navbar-outline navbar-nullButton" >
           <FontAwesomeIcon icon={faUserCheck} /> SIGN IN
         </Link>
-        <Link to="/" className="navbar-outline navbar-button" >
+        <Link to="/LogIn" className="navbar-outline navbar-button" >
           <FontAwesomeIcon icon={faUserPlus} /> LOG IN
         </Link>
     </Nav>
