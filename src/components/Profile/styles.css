@@ -1,0 +1,27 @@
+.Profile-mainContainer {
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(78, 78, 78);
+}
+
+.Profile-img {
+  border-radius: 50% !important;
+  width: 160px !important;
+  padding: 4px;
+}
+
+.Profile-hr {
+  background: white;
+}
+
+.Profile-Icon {
+  margin: 0 2rem;
+  transition: 0.5s;
+}
+
+.Profile-Icon:hover {
+  color: rgb(168, 31, 31);
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col, Card, Nav, Button, Form } from 'react-bootstrap'
+import { Card, Button } from 'react-bootstrap'
 
 import './styles.css'
 const Posts = () => {

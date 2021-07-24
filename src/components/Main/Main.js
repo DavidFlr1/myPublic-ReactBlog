@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import {Carousels, AddPosts, Posts,SideProfile, SideAdd, Footer} from '../index'
-import {Container, Row, Col, Card } from 'react-bootstrap'
+import {Carousels, AddPosts, Posts,SideProfile, SideAdds, Footer} from '../index'
+import { Container, Row, Col } from 'react-bootstrap'
 
 import './styles.css'
 
@@ -10,7 +10,7 @@ const Main = () => {
       <Carousels/>
       
       <div className="main-container">
-        <SideAdd />
+        <SideAdds />
 
         <Container >
           <Row className="main-postContainer">

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import {Navbar, Nav, Container, Button} from 'react-bootstrap'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faNewspaper, faIdCard, faUserCheck, faUserPlus, faInfo } from '@fortawesome/free-solid-svg-icons'

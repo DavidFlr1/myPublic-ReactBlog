@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Row, Col, Card, ButtonGroup, Button, Form } from 'react-bootstrap'
+import { Row, Col, Card, ButtonGroup, Button, Form } from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFont, faPaperclip, faMapMarkedAlt, faSmileWink, faAlignJustify, faAlignLeft, faAlignRight, faBold, faItalic, faUnderline, faTint, faFill, faTextHeight } from '@fortawesome/free-solid-svg-icons'

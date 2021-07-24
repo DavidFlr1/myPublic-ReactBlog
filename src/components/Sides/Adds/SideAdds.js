@@ -1,7 +1,7 @@
 import React from 'react'
-import {Container, Row, Col, Card } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 
-const SideAdd = () => {
+const SideAdds = () => {
   return (
     <div style={{width: '18rem'}}>
         <div style={{width: '18rem', height: '0'}}></div>
@@ -19,4 +19,4 @@ const SideAdd = () => {
   )
 }
 
-export default SideAdd
+export default SideAdds
