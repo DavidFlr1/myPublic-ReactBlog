@@ -25,13 +25,13 @@ const Navbars = () => {
         <Link to="/Profile" className="navbar-outline navbar-nullButton" >
           <FontAwesomeIcon icon={faUser} /> PROFILE
         </Link>
-        <Link to="/" className="navbar-outline navbar-nullButton" >
+        {/* <Link to="/" className="navbar-outline navbar-nullButton" >
           <FontAwesomeIcon variant="regular" icon={faNewspaper} /> NEWS
-        </Link>
-        <Link to="/" className="navbar-outline navbar-nullButton" >
+        </Link> */}
+        <Link to="/Contact" className="navbar-outline navbar-nullButton" >
           <FontAwesomeIcon variant="regular" icon={faIdCard} /> CONTACT
         </Link>
-        <Link to="/" className="navbar-outline navbar-nullButton" >
+        <Link to="/Info" className="navbar-outline navbar-nullButton" >
           <FontAwesomeIcon variant="regular" icon={faInfo} /> INFO
         </Link>
       </Nav>

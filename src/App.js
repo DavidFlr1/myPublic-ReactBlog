@@ -1,10 +1,9 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Navbars, Main, Profile, SignIn, LogIn } from './components/index'
 import { createBrowserHistory } from 'history'
+import { Navbars, Main, Profile, Contact, Info, SignIn, LogIn, Footer,Alert } from './components/index'
 
 import './styles.css'
-
 const App = () => {
     const activeLog = () => {
         localStorage.setItem('session', true);
@@ -13,20 +12,35 @@ const App = () => {
         console.log(window.localStorage)
         localStorage.clear()
 
-        createBrowserHistory().push("/Profile")
+        createBrowserHistory().push("/")
         createBrowserHistory().go()
     }
 
+    useEffect(() => {
+        
+    }, [])
+
+
+
     return (
+        
         <div style={{background: '#2C2E31'}}>
+            
             <Router>
                 <Navbars />
+                <Alert />
                     <Switch>
                         <Route exact path="/">
                             <Main />
                         </Route>
                         <Route exact path="/Profile">
                             <Profile />
+                        </Route>
+                        <Route exact path="/Contact">
+                            <Contact />
+                        </Route>
+                        <Route exact path="/Info">
+                            <Info />
                         </Route>
                         <Route exact path="/SignIn">
                             <SignIn />
@@ -35,6 +49,7 @@ const App = () => {
                             <LogIn />
                         </Route>
                     </Switch>
+                <Footer />
             </Router>
         </div>
     )

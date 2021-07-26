@@ -24,7 +24,7 @@ const Profile = () => {
     getUser()
   }, [])
   return (
-    <div className="Profile-mainContainer">
+    <div className="Public-mainContainer">
       <Card bg="dark" text="light" className="text-center" style={{ width: '50rem', alignItems: 'center' }}>
         <Card.Img variant="top" src={randomUser.picture.large} className="Profile-img" />
         <Card.Body>

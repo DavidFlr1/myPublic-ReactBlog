@@ -30,8 +30,6 @@ const Main = () => {
 
         <SideProfile />
       </div>
-
-      <Footer />
     </div>
   )
 }

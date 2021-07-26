@@ -26,6 +26,21 @@ input[type=number] {
   float: right;
 }
 
+.Public-mainContainer {
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(78, 78, 78);
+}
+
+.Public-controls {
+  background: #2C2E31 !important;
+  color: white !important;
+  border-color: gray !important;
+  resize: none;
+}
 /* .main-container {
     background: white;
     min-height: 100vh;

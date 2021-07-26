@@ -1,0 +1,13 @@
+.Contact-Info {
+  margin-left: 1rem;
+}
+
+.Contact-Icon {
+  font-size: 22px;
+  margin-right: 2rem;
+  transition: 0.5s;
+}
+
+.Contact-Icon:hover {
+  color: #41A5E1;
+}
