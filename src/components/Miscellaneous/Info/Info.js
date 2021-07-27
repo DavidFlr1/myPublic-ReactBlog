@@ -38,8 +38,8 @@ const Info = () => {
                 <div className="Info-text">The most popular front-end framework rebuilt for React.</div>
                 <a href="https://react-bootstrap.github.io" target="_blank" className="Footer-outlined">Bootstrap Framework</a></Col>
               <Col md="3">
-                <div className="Info-text">The Biggest Theme Ever for Blog/Magazine</div>
-                <a href="https://soledad.pencidesign.net/landing-page/" target="_blank" className="Footer-outlined">Landing page inspiration</a></Col>
+                <div className="Info-text">Your powerful rich text editor</div>
+                <a href="https://quilljs.com" target="_blank" className="Footer-outlined">Rich Text Tool</a></Col>
               <Col md="3">
                 <div className="Info-text">My portfolio where you can see all my job</div>
                 <a href="https://davidflr1.github.io/web-Portfolio/" target="_blank" className="Footer-outlined">My portfolio</a></Col>

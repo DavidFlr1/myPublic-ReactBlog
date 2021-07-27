@@ -2,15 +2,12 @@ import React, {useEffect} from 'react'
 import { Card } from 'react-bootstrap'
 
 const SideAdds = () => {
-  const handleClick = e => {
-    console.log(e)
-  }
+  // useEffect(() => {
+  //   window.addEventListener('scroll',(event) => {
+  //     console.log('Scrolling...');
+  //   });
+  // }, [])
 
-  useEffect(() => {
-    window.addEventListener('scroll',(event) => {
-      console.log('Scrolling...');
-    });
-  }, [])
   return (
     <div style={{width: '18rem'}}>
         <div style={{width: '18rem', height: '0'}}></div>

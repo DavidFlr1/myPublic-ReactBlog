@@ -20,7 +20,7 @@ const Footer = () => {
             <Row className="Footer-references">
               <Col md="3"><a href="https://reactjs.org" target="_blank" className="Footer-outlined">React Framework</a></Col>
               <Col md="3"><a href="https://react-bootstrap.github.io" target="_blank" className="Footer-outlined">Bootstrap Framework</a></Col>
-              <Col md="3"><a href="https://soledad.pencidesign.net/landing-page/" target="_blank" className="Footer-outlined">Landing page inspiration</a></Col>
+              <Col md="3"><a href="https://quilljs.com" target="_blank" className="Footer-outlined">Rich Text Tool</a></Col>
               <Col md="3"><a href="https://davidflr1.github.io/web-Portfolio/" target="_blank" className="Footer-outlined">My portfolio</a></Col>
             </Row>
           </Card.Text>

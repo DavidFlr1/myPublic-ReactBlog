@@ -44,6 +44,7 @@ const LogIn = () => {
   return (
     <div className="Public-mainContainer">
       <Card bg="dark" text="light" style={{ width: '50rem', alignItems: 'center', borderRadius: '10px', padding: '2rem' }}>
+        <Card.Title><h1>Log In</h1></Card.Title>
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
           <Row className="mb-3">
             <Form.Group as={Col} md="4" controlId="validationCustom01">

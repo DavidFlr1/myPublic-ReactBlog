@@ -3,7 +3,7 @@ import { RichText } from '../../index'
 import { Row, Col, Card, ButtonGroup, Button, Form } from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFont, faPaperclip, faMapMarkedAlt, faSmileWink, faAlignJustify, faAlignLeft, faAlignRight, faBold, faItalic, faUnderline, faTint, faFill, faTextHeight } from '@fortawesome/free-solid-svg-icons'
+import { faFont, faPaperclip, faMapMarkedAlt, faSmileWink, faUpload } from '@fortawesome/free-solid-svg-icons'
 
 import './styles.css'
 const AddPost = () => {
@@ -55,11 +55,12 @@ const AddPost = () => {
                 <Form.Control type="text" placeholder="Labels" className="AddPost-controls"/>
               </Col>
               <Col md="2">
+                <Button variant="outline-secondary" style={{width: '100%'}}><FontAwesomeIcon icon={faUpload} /></Button>
               </Col>
             </Row>
           </Card.Text>
-          <Col md={{span: 2, offset: 10}} className="d-grid gap-2">
-            <Button variant="outline-secondary"  className="float-right">POST</Button>
+          <Col >
+          <Button variant="outline-primary" className="float-right">POST</Button>
           </Col>
         </Card.Body>
       </Card>
