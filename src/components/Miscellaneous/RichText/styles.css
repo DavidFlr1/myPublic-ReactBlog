@@ -1,0 +1,33 @@
+.RichText-main {
+
+}
+
+.quill {
+
+}
+
+.ql-toolbar {
+  border-radius: 4px 4px 0 0 !important;
+  min-height: 40px;
+  max-height: 40px;
+}
+
+.ql-formats {
+}
+
+.ql-container {
+  border-radius: 0 0 4px 4px !important;
+}
+.ql-editor {
+  min-height: 117px;
+  max-height: 117px;
+  
+}
+
+.ql-snow {
+  border: 1px solid #808080 !important;
+  background: #2C2E31;
+  color:#6C757D !important;
+  margin: 0 !important;
+  padding: auto !important;
+}

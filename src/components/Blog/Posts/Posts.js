@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Card, Button } from 'react-bootstrap'
 
 import './styles.css'
@@ -17,8 +18,7 @@ const Posts = () => {
             asperiores velit eum, minus quae dignissimos aliquid repellendus quisquam libero 
             magni quibusdam placeat molestias rem repellat a? Rem tempore ea minima veniam 
             atque eos animi facere dolor pariatur inventore, optio fugit ullam mollitia dolores
-            <a className="Posts-outlined"> Read more...</a>
-
+            <Link to={`/Post?id=${1}`} className="Posts-outlined"> Read more...</Link>
           </Card.Text>
           <Button variant="outline-secondary" className="float-right">Go to post</Button>
         </Card.Body>

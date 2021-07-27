@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Carousels, AddPosts, Posts,SideProfile, SideAdds, Footer} from '../index'
+import { Carousels, AddPosts, Posts,SideProfile, SideAdds } from '../index'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import './styles.css'

@@ -10,7 +10,8 @@ export { default as Posts } from './Blog/Posts/Posts'
 export { default as SideProfile } from './Sides/Profile/SideProfile'
 export { default as SideAdds } from './Sides/Adds/SideAdds'
 
-export { default as Post } from './Blog/Post/Post'
+export { default as Post } from './Blog/Post/Post/Post'
+export { default as Comments } from './Blog/Post/Comments/Comments'
 
 export { default as Profile } from './Profile/Profile'
 
@@ -19,5 +20,7 @@ export { default as Commits } from './Git/Commits'
 export { default as Contact } from './Miscellaneous/Contact/Contact'
 export { default as Info } from './Miscellaneous/Info/Info'
 export { default as Alert } from './Miscellaneous/Alert/InfoAlert'
+
+export { default as RichText } from './Miscellaneous/RichText/RichText'
 
 export { default as Footer } from './Footer/Footer'

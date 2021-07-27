@@ -30,6 +30,8 @@ const Contact = () => {
           </Link>
         </Card.Footer>
       </Card>
+
+      
     </div>
   )
 }

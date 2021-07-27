@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
-import { Navbars, Main, Profile, Contact, Info, SignIn, LogIn, Footer,Alert } from './components/index'
+import { Navbars, Main, Post,Profile, Contact, Info, SignIn, LogIn, Footer,Alert } from './components/index'
 
 import './styles.css'
 const App = () => {
@@ -32,6 +32,9 @@ const App = () => {
                     <Switch>
                         <Route exact path="/">
                             <Main />
+                        </Route>
+                        <Route exact path="/Post">
+                            <Post />
                         </Route>
                         <Route exact path="/Profile">
                             <Profile />

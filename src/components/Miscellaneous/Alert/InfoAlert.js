@@ -21,6 +21,8 @@ const InfoAlert = () => {
           <br/><br/>
           All the information, icons and images are collected from different APIs, 
           you can find the reference to them in the footer or in the Information tab
+          <br/><br/>
+          You can check <a href="https://github.com/DavidFlr1/myPublic-ReactBlog" target="_blank">this blog from my repository</a> on github
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleClose}>Understood</Button>

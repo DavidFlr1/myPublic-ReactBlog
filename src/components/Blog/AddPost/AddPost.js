@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { RichText } from '../../index'
 import { Row, Col, Card, ButtonGroup, Button, Form } from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -21,7 +22,8 @@ const AddPost = () => {
           <Card.Text>
             <Row>
               <Col md="10">
-                <Form.Control as="textarea" rows={6} placeholder="Don't be shay and say everything..." className="AddPost-controls"/>
+                <RichText />
+                {/* <Form.Control as="textarea" rows={6} placeholder="Don't be shay and say everything..." className="AddPost-controls"/>
                 <Col md={{span: 5, offset: 7}}>
                   <Button variant="outline-secondary"><FontAwesomeIcon icon={faAlignLeft} /></Button> 
                   <Button variant="outline-secondary"><FontAwesomeIcon icon={faAlignJustify} /></Button>
@@ -32,7 +34,7 @@ const AddPost = () => {
                   <Button variant="outline-secondary"><FontAwesomeIcon icon={faTint} /></Button>
                   <Button variant="outline-secondary"><FontAwesomeIcon icon={faFill} /></Button> {' '}
                   <Button variant="outline-secondary"><FontAwesomeIcon icon={faTextHeight} /></Button>
-                </Col>
+                </Col> */}
               </Col>
               <Col md="2">
                   <Card.Img src="https://random.imagecdn.app/200/200"/>
